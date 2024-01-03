@@ -1,9 +1,0 @@
-{
-    "logger": {
-        "path": "log/chatbot-fastapi.log",
-        "level": "info",
-        "rotation": "1 days",
-        "retention": "1 months",
-        "format": "<level>{level: <8}</level> <green>{time:YYYY-MM-DD HH:mm:ss.SSS}</green> - <level>{message}</level>"
-    }
-}
