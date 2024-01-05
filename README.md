@@ -30,7 +30,17 @@ app
 ## 安裝套件
 ```
 >> cd fastapi-poetry-demo
->> poetry install
+>> poetry install --no-root
+```
+
+## lint 與 formatter
+- lint 檢查，`flake8` 的設定可以參閱 `pyproject.md` 裡的 `[tool.flake8]`
+```
+>> flake8 {your_file_path}
+```
+- formatter 可以幫忙把格式統一，設定可以新增 `pyproject.md` 裡的 `[tool.black]` 新增設定
+```
+>> black {your_file_path}
 ```
 
 ## 執行
